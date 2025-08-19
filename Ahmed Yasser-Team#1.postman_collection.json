@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "ab677162-881f-477b-8749-4b4f4a0ba2d8",
+		"name": "Ahmed Yasser-Team#1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40432730"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/greet/ahmed",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/hello",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"hello"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greet/EgronX Team",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greet",
+						"EgronX Team"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
